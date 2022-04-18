@@ -1,0 +1,44 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    font-family: 'Style Script' !important;
+    text-align: center;
+    font-size: 15px;
+}
+p
+{
+    font-size: 8px;
+}
+html {
+    background: whitesmoke;
+}
+body
+{
+    background-image: linear-gradient(to right, rgb(156, 103, 140), rgba(230, 114, 220, 0.932));
+}
+.formularioo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eec0c4;;
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    font-size: 5.5px;
+    
+}
+fieldset
+{
+    border: 1px solid #0c0c0c;
+}
+.enviar
+{
+    text-align: center;
+    font-size: 4px;
+}
