@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+    color: beige;
+    background:  black !important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.main
+{
+    height:700px;
+    width: 100%;
+    background: url("img/painel-site1.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main-child
+{
+    z-index: 1;
+    display: grid;
+    justify-content: center;
+}
+h1
+{
+    color: #ffffff;
+    justify-content: space-between;
+    font-family: 'Scheherazade New', serif !important;
+}
+.conteiner
+{
+    max-width: 1130px;
+    margin: auto;
+    justify-content: center;
+    padding: 40px;
+    justify-content: space-between;
+}
+h3
+{
+    font-size: 30px;
+}
+.panuncio
+{
+    font-size: 20px;
+}
+.section-img
+{
+    display: flex;
+}
+.section-img img
+{
+    width: 225px;
+}
+
+.header a
+{
+    background: #ffffff;
+    margin: 10px;
+    text-decoration: none;
+    display:inline-block;
+    color: black;
+}
+.main h2
+{
+    font-size: 40px;
+    max-width: 500px;
+    text-align: center;
+}
+.main span
+{
+    font-size: 26px;
+}
+.main p
+{
+    font-size: 20px;
+    font-family: 'Scheherazade New', serif !important;
+}
+.form-cta
+{
+    display: grid;
+    grid-template-columns: 345px 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.form-cta input
+{
+    padding: 8px 4px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.form-cta button
+{
+    background-color: #783391;
+   outline: none;
+   color: white;
+   font-size: 30px;
+   text-transform: uppercase;
+   border: none;
+}
+button
+{
+    width: 125px ;
+}
+.gradient
+{
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.panuncio
+{
+    text-align: center;
+    font-family: 'Scheherazade New', serif !important;
+    margin: 20px;
+}
+.section
+{
+    justify-content: space-between;
+}
+p
+{
+    font-family: 'Scheherazade New', serif !important;
+}

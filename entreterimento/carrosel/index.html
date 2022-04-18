@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Carrosel</title>
+    <meta charset="utf-8">
+
+    <!-- Importando o javascript da biblioteca do Jquery e do plugin do slick carousel do-->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+
+    <!--Importando o CSS da bibloteca-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css    ">
+
+  </head>
+  <body>
+    <!--Criando a div do carrousel e adicionando as imagens-->
+    <div class="carousel">
+        <div><img src="https://img.ibxk.com.br/2020/01/30/30021141299110.jpg?w=1120&h=420&mode=crop&scale=both"/></div>
+        <div><img src="https://img.ibxk.com.br/2020/01/30/30021141299110.jpg?w=1120&h=420&mode=crop&scale=both"/></div>
+        <div><img src="https://img.ibxk.com.br/2020/01/30/30021141299110.jpg?w=1120&h=420&mode=crop&scale=both"/></div>
+        <div><img src="https://img.ibxk.com.br/2020/01/30/30021141299110.jpg?w=1120&h=420&mode=crop&scale=both"/></div>
+        <div><img src="https://img.ibxk.com.br/2020/01/30/30021141299110.jpg?w=1120&h=420&mode=crop&scale=both"/></div>
+    </div>
+     
+
+      <!--Script que vai fazer o carrousel funcional-->
+      <script>
+            $('.carousel').slick({
+                dots: true, //propiedade da biblioteca
+                infinite: true, //propiedade da biblioteca
+                speed: 500, //propiedade da biblioteca
+                slidesToShow: 4, //propiedade da biblioteca
+                slidesToScroll: 4, //propiedade da biblioteca
+            });
+      </script>
+  </body>
+</html>

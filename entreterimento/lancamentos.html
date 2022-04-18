@@ -1,0 +1,202 @@
+<html lang="PT Brasil">
+
+<head>
+    <title>Lancamentos</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+
+    <!-- Importando o javascript da biblioteca do Jquery e do plugin do slick carousel do-->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+
+    <!--Importando o CSS da bibloteca-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css    ">
+
+    <link rel="stylesheet" href="css/geral.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="nome text-center">
+
+            <h1>ENTETENIMENTO.COM</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light cor1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Entetenimento.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="geral.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="filmes.html">Filmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="series.html">Séreis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="canais.html">Canais ao vivo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lancamentos.html">Novos lançamentos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="true">
+                                Opções
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+
+                                <li><a class="dropdown-item" href="#filmes">Filmes Lançados</a></li>
+                                <li><a class="dropdown-item" href="#seires">Séries Lançados</a></li>
+                                <li><a class="dropdown-item" href="#filmesembreve">Filmes EM BREVE</a></li>
+                                <li><a class="dropdown-item" href="#seiresembreve">Séries EM BREVE</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="pesquisar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container text-light">
+            <h2>LANÇAMENTOS</h2>
+        </div>
+
+        <div class="container text-light" id="filmes">
+            <h3>Filmes</h3>
+        </div>
+
+        <div class="container ">
+            <div class="row ">
+                <div class="carousel lancamento">
+                    <img src="img/filmes-comedia/golpe-baixo.jpg" class="golpel efeito" alt="lançamento de filmes">
+                    <img src="img/filmes-drama/procura-da-felicidade.jpg" class="procural efeito"
+                        alt="lançamento de filmes">
+                    <img src="img/filmes-romance/dias.jpg" class="diasl efeito" alt="lançamento de filmes">
+                    <img src="img/filmes-faroeste/justica.jpg" class="justical efeito" alt="lançamento de filmes">
+                    <img src="img/filmes-infantis/divertidamente.jpg" class="divertidamentel efeito"
+                        alt="lançamento de filmes">
+                    <img src="img/filmes-drama/procura-da-felicidade.jpg" class="procural efeito"
+                        alt="lançamento de filmes">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-light" id="series">
+            <h3>Séries</h3>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="carousel lancamento">
+
+                    <img src="img/series-reality/brincando.jpg" class="brincandol efeito" alt="lançamento de series">
+                    <img src="img/series-terror/boneca.jpg" class="bonecal efeito" alt="lançamento de series">
+                    <img src="img/series-acao/vinks.jpeg" class="vinksl efeito" alt="lançamento de series">
+                    <img src="img/series-infantil/patrulha.jpg" class="patrulhal efeito" alt="lançamento de series">
+                    <img src="img/series-variados/greys.jpg" class="greysl efeito" alt="lançamento de series">
+                    <img src="img/series-acao/boru.jpg" class="borul efeito" alt="lançamento de series">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-light" id="filmesembreve">
+            <h3>EM BREVE</h3>
+            <h4>Filmes</h4>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="carousel lancamento">
+
+                    <img src="img/lancamentos/pinoquio.jpg" class="pinoquiol efeito" alt="lançamento de filmes">
+                    <img src="img/lancamentos/lancamento1.jpg" class="lancamento1 efeito" alt="lançamento de filmes">
+                    <img src="img/lancamentos/infiltrado.jpg" class="infiltradol efeito" alt="lançamento de filmes">
+                    <img src="img/lancamentos/inferno.jpg" class="infernol efeito" alt="lançamento de filmes">
+                    <img src="img/lancamentos/culpa.jpg" class="culpal efeito" alt="lançamento de filmes">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-light" id="seriesembreve">
+            <h4>Séries</h4>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="carousel lancamento">
+
+                    <img src="img/lancamentos/dinastia.jpg" class="dinastial efeito" alt="lançamentos de series">
+                    <img src="img/lancamentos/marvel.jpg" class="marvell efeito" alt="lançamentos de series">
+                    <img src="img/lancamentos/rainha.jpg" class="rainhal efeito" alt="lançamentos de series">
+                    <img src="img/lancamentos/round6.jpg" class="round6l efeito" alt="lançamentos de series">
+                    <img src="img/lancamentos/sabrina.png" class="sabrinal efeito" alt="lançamentos de series">
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="contct-are">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Entre em contato conosco</h3>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fas fa-phone"></i>
+                            <p><span class="contact-title">Ligue para:</span> (xx) xxxxx-xxxx</p>
+                            <p><span class="contact-title"> Horários:</span> 8:00 - 19:00 seg - sex</p>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fas fa-envelope"></i>
+                            <p><span class="contact-title">Envie um e-mail:</span><br> Entetenimento.com123@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <p><span class="contact-title"> Faça seu teste grátis:</span>
+                                <br>venha conhecer todas as nossas opções e se divirtir!
+                            </p>
+                        </div>
+                    </div>
+        </footer>
+
+
+        <!--Script que vai fazer o carrousel funcional-->
+        <script>
+            $('.carousel').slick({
+                dots: true, //propiedade da biblioteca
+                infinite: true, //propiedade da biblioteca
+                speed: 500, //propiedade da biblioteca
+                slidesToShow: 4, //propiedade da biblioteca
+                slidesToScroll: 4, //propiedade da biblioteca
+            });
+        </script>
+    </main>
+</body>
+
+</html>
